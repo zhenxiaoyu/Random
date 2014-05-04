@@ -35,7 +35,7 @@ main()
 	{
 		printf("第%d组：",i+1);
 		for(j=0;j<4;j++)
-			printf("%d ",group[i][j]);
+			printf("%d - %s ",info[group[i][j]].id, info[group[i][j]].name);
 		printf("\n");
 	}
 }
